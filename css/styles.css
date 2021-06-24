@@ -4019,7 +4019,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #64a19d;
+  background-color: #ff5a03;
 }
 
 .nav-fill > .nav-link,
@@ -4312,7 +4312,7 @@ textarea.form-control-lg {
 }
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
+  color: #ff5a03;
 }
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.55);
@@ -11076,7 +11076,7 @@ body {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: rgba(128, 128, 128, 0.62);
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
@@ -11087,15 +11087,15 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #ff5a03;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #ff5a03;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #ff5a03;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #ff5a11;
   }
 }
 
@@ -11128,7 +11128,8 @@ body {
   letter-spacing: 0.8rem;
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
-  -w
+  -webkit-background-clip: text;
+
 }
 .masthead h2, .masthead .h2 {
   max-width: 20rem;
@@ -11158,7 +11159,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.2) 100%);
 }
 .about-section p {
   margin-bottom: 5rem;
