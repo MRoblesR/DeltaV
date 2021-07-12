@@ -6,6 +6,10 @@
     <meta content="" name="description"/>
     <meta content="" name="author"/>
     <title>Grupo ∆V</title>
+    <!-- bootstrap -->
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+
     <link href="assets/delta.v.ico" rel="icon" type="image/x-icon"/>
     <!-- Font Awesome icons (free version)-->
     <script crossorigin="anonymous" src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
@@ -20,7 +24,7 @@
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container px-4 px-lg-5">
-        <a class="navbar-brand" href="#page-top">∆V</a>
+        <a class="navbar-brand" href="index.html">∆V</a>
         <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
                 class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive" data-bs-toggle="collapse"
                 type="button">
@@ -29,10 +33,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#projects">Projectos</a></li>
-                <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="Proyectos.html">Projectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="Blog.html">Blog</a></li>
                 <li class="nav-item"><a class="nav-link" href="#revista">Revista</a></li>
-                <li class="nav-item"><a class="nav-link" href="#Nosotros">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="AboutUs.html">Nosotros</a></li>
                 <li class="nav-item"><a class="nav-link" href="#signup">Contacto</a></li>
             </ul>
         </div>
@@ -65,10 +69,19 @@
                 <h2>Jane Doe</h2>
                 <p class="title">CEO &amp; Founder</p>
                 <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                <p>example@example.com</p>
-                <p>
-                    <button class="button">Contact</button>
-                </p>
+                <div class="dropdown">
+                    <button aria-expanded="false" aria-haspopup="true" class="btn btn-secondary dropdown-toggle"
+                            data-toggle="dropdown" id="dropdownMenuButton" type="button">
+                        Contactar
+                    </button>
+                    <div aria-labelledby="dropdownMenuButton" class="dropdown-menu">
+                        <ul>
+                        <li><a href="www.google.com"><i class="fab fa-linkedin"></i> LinkedIn </a></li>
+                        <li><a href="www.google.com"><i class="fab fa-whatsapp"></i> Whatsapp </a></li>
+                        <li><a href="www.google.com"><i class="fab fa-instagram"></i> Instagram </a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -300,8 +313,15 @@
     <div class="container px-4 px-lg-5">Ingenieria Aeroespacial - Universidad de Antioquia</div>
 </footer>
 <!-- Bootstrap core JS-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Core theme JS-->
+<script crossorigin="anonymous"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>    <!-- Core theme JS-->
 <script src="js/scripts.js"></script>
 </body>
 </html>
