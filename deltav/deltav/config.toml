@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://localhost:63342/DELTA/deltav/deltav/public/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme="deltavtheme"
@@ -28,5 +28,5 @@ theme="deltavtheme"
   [[menu.main]]
       name = "Nosotros"
       pre = "nosotros"
-      url = "/nosotros.html"
+      url = "/nosotros/index.html"
       weight = 5
