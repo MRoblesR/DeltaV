@@ -5,17 +5,27 @@ theme="deltavtheme"
 
 [menu]
   [[menu.main]]
-    name = "Home"
-    pre = "home"
+    name = "Inicio"
+    pre = "inicio"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "Posts"
-    pre = "pen-tool"
-    url = "/posts/"
+    name = "Proyectos"
+    pre = "proyectos"
+    url = "/proyectos/"
     weight = 2
   [[menu.main]]
-    name = "Tags"
-    pre = "tag"
-    url = "/tags/"
+    name = "Blog"
+    pre = "blog"
+    url = "/blog/"
     weight = 3
+  [[menu.main]]
+     name = "Revista"
+     pre = "revista"
+     url = "/revistas/"
+     weight = 4
+  [[menu.main]]
+      name = "Nosotros"
+      pre = "nosotros"
+      url = "/nosotros.html"
+      weight = 5
