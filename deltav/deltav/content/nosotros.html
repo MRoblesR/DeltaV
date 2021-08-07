@@ -1,47 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
-    <meta content="" name="description"/>
-    <meta content="" name="author"/>
-    <title>Grupo ∆V</title>
-    <!-- bootstrap -->
-    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
-
-    <link href="assets/delta.v.ico" rel="icon" type="image/x-icon"/>
-    <!-- Font Awesome icons (free version)-->
-    <script crossorigin="anonymous" src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-          rel="stylesheet"/>
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet"/>
-</head>
-<body id="page-top">
-<!-- Navigation-->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container px-4 px-lg-5">
-        <a class="navbar-brand" href="../../../prototype/index.html">∆V</a>
-        <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
-                class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive" data-bs-toggle="collapse"
-                type="button">
-            Menu
-            <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="../../../prototype/Proyectos.html">Projectos</a></li>
-                <li class="nav-item"><a class="nav-link" href="../../../prototype/Blog.html">Blog</a></li>
-                <li class="nav-item"><a class="nav-link" href="#revista">Revista</a></li>
-                <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-                <li class="nav-item"><a class="nav-link" href="#signup">Contacto</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
+{{ define "main" }}
 <!-- Masthead-->
 <header class="masthead">
     <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
@@ -76,9 +33,9 @@
                     </button>
                     <div aria-labelledby="dropdownMenuButton" class="dropdown-menu">
                         <ul>
-                        <li><a href="www.google.com"><i class="fab fa-linkedin"></i> LinkedIn </a></li>
-                        <li><a href="www.google.com"><i class="fab fa-whatsapp"></i> Whatsapp </a></li>
-                        <li><a href="www.google.com"><i class="fab fa-instagram"></i> Instagram </a></li>
+                            <li><a href="www.google.com"><i class="fab fa-linkedin"></i> LinkedIn </a></li>
+                            <li><a href="www.google.com"><i class="fab fa-whatsapp"></i> Whatsapp </a></li>
+                            <li><a href="www.google.com"><i class="fab fa-instagram"></i> Instagram </a></li>
                         </ul>
                     </div>
                 </div>
@@ -206,7 +163,8 @@
 <div class="row">
     <div class="col-xl-3 col-md-6 col-sm-12 ">
         <div class="card">
-            <img alt="Jane" src="https://drive.google.com/file/d/1xdfSmRGbvU5rkVcdBNh8o61IY2IH4joZ/view" style="width:100%">
+            <img alt="Jane" src="https://drive.google.com/file/d/1xdfSmRGbvU5rkVcdBNh8o61IY2IH4joZ/view"
+                 style="width:100%">
             <div class="container">
                 <h2>Jane Doe</h2>
                 <p class="title">CEO &amp; Founder</p>
@@ -266,62 +224,4 @@
 
 <!-- team -->
 
-<!-- Contact-->
-<section class="contact-section bg-black">
-    <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5">
-            <div class="col-md-4 mb-3 mb-md-0">
-                <div class="card py-4 h-100">
-                    <div class="card-body text-center">
-                        <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                        <h4 class="text-uppercase m-0">Address</h4>
-                        <hr class="my-4 mx-auto"/>
-                        <div class="small text-black-50">Carmen del Bivoral - Antioquia</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-3 mb-md-0">
-                <div class="card py-4 h-100">
-                    <div class="card-body text-center">
-                        <i class="fas fa-envelope text-primary mb-2"></i>
-                        <h4 class="text-uppercase m-0">Email</h4>
-                        <hr class="my-4 mx-auto"/>
-                        <div class="small text-black-50"><a href="#!">deltavudea@gmail.com</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-3 mb-md-0">
-                <div class="card py-4 h-100">
-                    <div class="card-body text-center">
-                        <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                        <h4 class="text-uppercase m-0">Phone</h4>
-                        <hr class="my-4 mx-auto"/>
-                        <div class="small text-black-50">+1 (555) 902-8832</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="social d-flex justify-content-center">
-            <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-            <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-            <a class="mx-2" href="#!"><i class="fab fa-instragram"></i></a>
-        </div>
-    </div>
-</section>
-<!-- Footer-->
-<footer class="footer bg-black small text-center text-white-50">
-    <div class="container px-4 px-lg-5">Ingenieria Aeroespacial - Universidad de Antioquia</div>
-</footer>
-<!-- Bootstrap core JS-->
-<script crossorigin="anonymous"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script crossorigin="anonymous"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script crossorigin="anonymous"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>    <!-- Core theme JS-->
-<script src="../../../prototype/js/scripts.js"></script>
-</body>
-</html>
+{{end}}
