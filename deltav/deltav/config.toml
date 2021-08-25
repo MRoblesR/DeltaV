@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:63342/DELTA/deltav/deltav/public/'
+baseURL = ''
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme="deltavtheme"
