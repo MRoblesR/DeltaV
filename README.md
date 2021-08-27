@@ -52,3 +52,25 @@ cover: "1.png"
 5. Se rellena con el texto después de los 3 guiones con HTML o markdown
 
 ## Nueva revista
+
+Sigue los siguientes pasos:
+1. En revistas crea una carpeta con la posición de la revista de nombre
+2. Crea un archivo index.md con
+
+```
+---
+title: "primera"
+date: 2021-08-07
+cover: "images/1.png
+description: "Una descripcion de cualquier longitud"
+ossuu: "link a la web de ossuu"
+---
+```
+4. Crea una carpeta dentro de la anterior llamada images
+5. Pon todas las imagenes en la carpeta images
+
+
+# Consideraciones
+
+1. Todas las imagenes deberían estar en formato webP
+
