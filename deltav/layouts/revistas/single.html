@@ -11,10 +11,10 @@
                         {{range .Resources.ByType "image"}}
                         {{if eq .Title "images/1.png"}}
                         <div class="carousel-item active"><img alt="1ª página" class=" w-75 d-flex "
-                                                               src="{{ .Name}}"></div>
+                                                               src="{{ .RelPermalink}}"></div>
                         {{else}}
                         <div class="carousel-item "><img alt="2ª página" class=" w-75 d-flex justify-content-center"
-                                                         src="{{ .Name}}"></div>
+                                                         src="{{ .RelPermalink}}"></div>
                         {{end}}
                         {{end}}
                     </div>

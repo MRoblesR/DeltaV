@@ -1,0 +1,47 @@
+{{ define "main" }}
+<!-- Masthead-->
+<header class="masthead">
+    <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+        <div class="d-flex justify-content-center">
+            <div class="text-center">
+                <h1 class="mx-auto my-0 text-uppercase">Revista</h1>
+                <h2 class="text-white-50 mx-auto mt-2 mb-5">Lee nuestras últimas publicaciones</h2>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Projects-->
+<section class="projects-section bg-light" id="projects">
+    <div class="container px-4 px-lg-5">
+        <!-- Featured Project Row-->
+        <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+            {{ range first 1 .Pages.ByPublishDate.Reverse }}
+            <h2>Última publicación</h2>
+            <div class="col-xl-8 col-lg-7"><img alt="última revista" class="img-fluid mb-3 mb-lg-0" src="{{.Title}}/{{ .Params.cover}}"/>
+            </div>
+            <div class="col-xl-4 col-lg-5">
+                <div class="featured-text text-center text-lg-left">
+                    <h4>{{ .Title }}</h4>
+                    <p class="text-black-50 mb-0">{{ .Description }}</p>
+                    <a href="{{ .RelPermalink }}">Leer</a>
+                </div>
+            </div>
+            {{end}}
+            <h3>Revistas anteriores</h3>
+            {{ range first 7 (after 1 .Pages.ByPublishDate.Reverse )}}
+            <div class="col-xl-3 col-md-6 col-sm-12"><img alt="{{.Title}}" class="img-fluid mb-3 mb-lg-0" src="{{.Title}}/{{ .Params.cover}}"/>
+            </div>
+            <div class="col-xl-4 col-lg-5">
+                <div class="featured-text text-center text-lg-left">
+                    <h4>{{ .Title }}</h4>
+                    <p class="text-black-50 mb-0">{{ .Description }}</p>
+                    <a href="{{ .RelPermalink }}">Leer</a>
+                </div>
+            </div>
+            {{end}}
+
+        </div>
+    </div>
+</section>
+{{ end }}
