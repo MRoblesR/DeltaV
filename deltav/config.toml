@@ -1,38 +1,38 @@
 baseURL = ''
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme="deltavtheme"
+theme = "deltavtheme"
 
 relativeURLs = true
 
 [menu]
-  [[menu.main]]
-    name = "Inicio"
-    pre = "inicio"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Proyectos"
-    pre = "proyectos"
-    url = "/proyectos/"
-    weight = 2
-  [[menu.main]]
-    name = "Wiki"
-    pre = "wiki"
-    url = "/wiki/"
-    weight = 3
-  [[menu.main]]
-    name = "Blog"
-    pre = "blog"
-    url = "/blog/"
-    weight = 4
-  [[menu.main]]
-     name = "Revista"
-     pre = "revista"
-     url = "/revistas/"
-     weight = 5
-  [[menu.main]]
-      name = "Nosotros"
-      pre = "nosotros"
-      url = "/nosotros/index.html"
-      weight = 6
+    [[menu.main]]
+        name = "Inicio"
+        pre = "inicio"
+        url = "/"
+        weight = 1
+    [[menu.main]]
+        name = "Proyectos"
+        pre = "proyectos"
+        url = "/proyectos/"
+        weight = 2
+    [[menu.main]]
+        name = "Wiki"
+        pre = "wiki"
+        url = "/wiki/"
+        weight = 3
+    [[menu.main]]
+        name = "Revista"
+        pre = "revista"
+        url = "/revistas/"
+        weight = 5
+    [[menu.main]]
+        name = "Nosotros"
+        pre = "nosotros"
+        url = "/nosotros/index.html"
+        weight = 6
+    [[menu.main]]
+        name = "Support us"
+        pre = "support us"
+        url = "https://www.patreon.com/deltavudea"
+        weight = 6

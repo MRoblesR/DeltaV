@@ -16,44 +16,44 @@
 <br>
 <br>
 <br>
+<section id="colaboradores" class="p-xl-5">
+    <h1>Colaboradores</h1>
+    <div class="row">
 
-<h1>Colaboradores</h1>
-<div class="row">
-
-    {{ range .Pages.ByParam "nombre" }}
-    <div class="col-xl-3 col-md-6 col-sm-12 ">
-        <div class="card">
-            <img alt="Foto de {{.Params.nombre}}" src="{{.Title}}/{{ .Params.foto }}" style="width:100%">
-            <div class="container">
-                <h2>{{.Params.nombre}}</h2>
-                <p class="title">{{.Params.posicion}}</p>
-                <p>{{ .Params.descripcion}}</p>
-                <div class="dropdown">
-                    <button aria-expanded="false" aria-haspopup="true" class="btn btn-secondary dropdown-toggle"
-                            data-toggle="dropdown" id="dropdownMenuButton" type="button">
-                        Contactar
-                    </button>
-                    <div aria-labelledby="dropdownMenuButton" class="dropdown-menu">
-                        <ul>
-                            {{if isset .Params "email"}}
-                            <li><a href="{{.Params.email}}"><i class="fas fa-envelope"></i> email </a></li>
-                            {{end}}
-                            {{if isset .Params "linkedin"}}
-                            <li><a href="{{.Params.linkedin}}"><i class="fab fa-linkedin"></i> LinkedIn </a></li>
-                            {{end}}
-                            {{if isset .Params "whatsapp"}}
-                            <li><a href="{{.Params.whatsapp}}"><i class="fab fa-whatsapp"></i> Whatsapp </a></li>
-                            {{end}}
-                            {{if isset .Params "instagram"}}
-                            <li><a href="{{.Params.instagram}}"><i class="fab fa-instagram"></i> Instagram </a></li>
-                            {{end}}
-                        </ul>
+        {{ range .Pages.ByParam "nombre" }}
+        <div class="col-xl-3 col-md-6 col-sm-12 p-xl-4">
+            <div class="card">
+                <img class="profile-image" alt="Foto de {{.Params.nombre}}" src="{{.Title}}/{{ .Params.foto }}" >
+                <div class="container">
+                    <h2>{{.Params.nombre}}</h2>
+                    <p class="title">{{.Params.posicion}}</p>
+                    <p>{{ .Params.descripcion}}</p>
+                    <div class="dropdown">
+                        <button aria-expanded="false" aria-haspopup="true" class="btn btn-secondary dropdown-toggle"
+                                data-toggle="dropdown" id="dropdownMenuButton" type="button">
+                            Contactar
+                        </button>
+                        <div aria-labelledby="dropdownMenuButton" class="dropdown-menu">
+                            <ul>
+                                {{if isset .Params "email"}}
+                                <li><a href="{{.Params.email}}"><i class="fas fa-envelope"></i> email </a></li>
+                                {{end}}
+                                {{if isset .Params "linkedin"}}
+                                <li><a href="{{.Params.linkedin}}"><i class="fab fa-linkedin"></i> LinkedIn </a></li>
+                                {{end}}
+                                {{if isset .Params "whatsapp"}}
+                                <li><a href="{{.Params.whatsapp}}"><i class="fab fa-whatsapp"></i> Whatsapp </a></li>
+                                {{end}}
+                                {{if isset .Params "instagram"}}
+                                <li><a href="{{.Params.instagram}}"><i class="fab fa-instagram"></i> Instagram </a></li>
+                                {{end}}
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        {{end}}
     </div>
-    {{end}}
-</div>
-
+</section>
 {{end}}
