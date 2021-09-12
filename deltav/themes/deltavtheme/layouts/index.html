@@ -29,40 +29,31 @@
     </div>
 </section>
 <!-- Projects-->
-<section class="projects-section bg-light" id="projects">
+<section class="projects-section" id="projects">
     <div class="container px-4 px-lg-5">
         <!-- Featured Project Row-->
+        <h1>Proyectos</h1>
         <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-            <div class="col-xl-8 col-lg-7"><img alt="..." class="img-fluid mb-3 mb-lg-0" src="assets/img/rocket.jpg"/>
-            </div>
-            <div class="col-xl-4 col-lg-5">
-                <div class="featured-text text-center text-lg-left">
-                    <h4>Projectos</h4>
-                    <p class="text-black-50 mb-0">Aqui hay una sección para los proyectos del grupo ∆V!</p>
+            {{ range where .Site.Pages "Section" "proyectos" }}
+            {{if (isset .Params "cover") }}
+            <div class="col-xl-3 col-md-6 col-sm-12 p-xl-4 px-3 py-3">
+                <div class="card">
+                    <img alt="Foto de {{.Params.Cover}}" class="card-img"
+                         src="/proyectos/{{.Title}}/{{ .Params.cover }}">
+                    <div class="container">
+                        <h2>{{.Params.titulo}}</h2>
+                        <p>{{ .Description}}</p>
+                        <a href="{{.RelPermalink}}">Leer más</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-<!-- blog-->
-<section class="blog-section bg-light" id="blog">
-    <div class="container px-4 px-lg-5">
-        <!-- Featured blog Row-->
-        <div class="row gx-0 mb-8 mb-lg-5 align-items-center">
-            <div class="col-xl-7 col-lg-5"><img alt="..." class="img-fluid mb-3 mb-lg-0" src="assets/img/aero.jpg"/>
-            </div>
-            <div class="col-xl-5 col-lg-7">
-                <div class="featured-text text-center text-lg-left">
-                    <h4>Blog</h4>
-                    <p class="text-black-50 mb-0">Conoce nuestro blog donde educamos a nuestros lectores en el sector
-                        aeroespacial</p>
-                </div>
-            </div>
+            {{end}}
+            {{end}}
         </div>
     </div>
 </section>
 <!-- wiki-->
-<section class="wiki-section bg-light" id="wiki">
+<section class="wiki-section" id="wiki">
     <div class="container px-4 px-lg-5">
         <!-- Featured wiki Row-->
         <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
@@ -71,7 +62,7 @@
             <div class="col-xl-4 col-lg-5">
                 <div class="featured-text text-center text-lg-left">
                     <h4>Wiki</h4>
-                    <p class="text-black-50 mb-0">Conoce nuestro wiki donde educamos a nuestros lectores en el sector
+                    <p class=" mb-0">Conoce nuestro wiki donde educamos a nuestros lectores en el sector
                         aeroespacial</p>
                 </div>
             </div>
@@ -81,7 +72,7 @@
 <br/>
 
 <!-- revista-->
-<section class="revista-section bg-light" id="revista">
+<section class="revista-section" id="revista">
     <div class="container px-4 px-lg-5">
         <!-- Featured revista Row-->
         <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
@@ -90,7 +81,7 @@
             <div class="col-xl-4 col-lg-5">
                 <div class="featured-text text-center text-lg-left">
                     <h4>Revista</h4>
-                    <p class="text-black-50 mb-0">Aquí conduce a la revista del grupo delta-v</p>
+                    <p class="mb-0">Aquí conduce a la revista del grupo delta-v</p>
                 </div>
             </div>
         </div>
@@ -100,7 +91,7 @@
 
 
 <!-- Project One Row-->
-<section class="Nosotros-section bg-light" id="Nosotros">
+<section class="Nosotros-section" id="Nosotros">
     <div class="container px-4 px-lg-5">
 
         <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
@@ -109,8 +100,12 @@
                 <div class="bg-black text-center h-100 project">
                     <div class="d-flex h-100">
                         <div class="project-text w-100 my-auto text-center text-lg-left">
-                            <h4 class="text-white">Misión</h4>
-                            <p class="mb-0 text-white-50 px-xl-5">Nuestra misión es formarnos con el autoaprendizaje, la investigación y las experiencias, imponernos retos para innovar en lo aprendido y con ello algún día alcanzar la madurez científica de articular misiones de índole aeroespacial junto a la comunidad académica, empresarial y estatal que desee acompañarnos hacia la misma meta.</p>
+                            <h4>Misión</h4>
+                            <p class="mb-0  px-xl-5">Nuestra misión es formarnos con el autoaprendizaje, la
+                                investigación y las experiencias, imponernos retos para innovar en lo aprendido y con
+                                ello algún día alcanzar la madurez científica de articular misiones de índole
+                                aeroespacial junto a la comunidad académica, empresarial y estatal que desee
+                                acompañarnos hacia la misma meta.</p>
                             <hr class="d-none d-lg-block mb-0 ms-0"/>
                         </div>
                     </div>
@@ -124,8 +119,12 @@
                 <div class="bg-black text-center h-100 project">
                     <div class="d-flex h-100">
                         <div class="project-text w-100 my-auto text-center text-lg-right">
-                            <h4 class="text-white">Visión</h4>
-                            <p class="mb-0 text-white-50 px-xl-5">Los semilleristas de Delta-V  se ven a futuro como integrantes de un equipo líder en cohetería para el contexto nacional e internacional y que represente con orgullo a la Universidad y al país, siendo referentes en investigación y aplicación de sistemas de propulsión, y dejando un legado de innovación y continuidad a la carrera en este ámbito.</p>
+                            <h4>Visión</h4>
+                            <p class="mb-0  px-xl-5">Los semilleristas de Delta-V se ven a futuro como
+                                integrantes de un equipo líder en cohetería para el contexto nacional e internacional y
+                                que represente con orgullo a la Universidad y al país, siendo referentes en
+                                investigación y aplicación de sistemas de propulsión, y dejando un legado de innovación
+                                y continuidad a la carrera en este ámbito.</p>
                             <hr class="d-none d-lg-block mb-0 ms-0"/>
 
                         </div>

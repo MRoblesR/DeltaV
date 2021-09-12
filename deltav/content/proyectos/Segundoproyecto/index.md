@@ -5,7 +5,7 @@ cover: "1.png"
 titulo: "Aquí va el título"
 description: "Esta es una breve descripción de lo que va el proyecto"
 ---
-# {{< param titulo >}} 
+# Nombre del proyecto
 
 ***
 
