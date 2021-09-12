@@ -11948,3 +11948,24 @@ body {
     overflow: hidden;
     outline: none;
 }
+
+section {
+    margin: auto;
+    padding-top: 10px;
+}
+div#sectionleft > img{
+    float: left;
+    margin-right: 10px;
+    width: 20em;
+}
+div#sectionright >img {
+    float: right;
+    margin: auto;
+    width: 20em;
+}
+
+#content{
+ max-width: 800px;
+    padding: 5em;
+    align-content: center;
+}
