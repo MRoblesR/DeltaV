@@ -8,31 +8,54 @@ relativeURLs = true
 [menu]
     [[menu.main]]
         name = "Inicio"
-        pre = "inicio"
+        identifier = "inicio"
         url = "/"
         weight = 1
+
     [[menu.main]]
         name = "Proyectos"
-        pre = "proyectos"
+        identifier = "proyectos"
         url = "/proyectos/"
         weight = 2
+        [[menu.main]]
+            name = "Proyecto 1"
+            identifier = "proyecto 1"
+            url = "/proyectos/proyecto1/index.html"
+            weight = 1
+            parent = "proyectos"
+        [[menu.main]]
+            name = "Proyecto 2"
+            identifier = "proyecto 2"
+            url = "/proyecto2/index.html"
+            weight = 2
+            parent = "proyectos"
+        [[menu.main]]
+            name = "Proyecto 3"
+            identifier = "proyecto 3"
+            url = "/proyecto3/index.html"
+            weight = 3
+            parent = "proyectos"
+
     [[menu.main]]
         name = "Wiki"
-        pre = "wiki"
+        identifier = "wiki"
         url = "/wiki/"
         weight = 3
+
     [[menu.main]]
         name = "Revista"
-        pre = "revista"
+        identifier = "revista"
         url = "/revistas/"
         weight = 5
+
     [[menu.main]]
         name = "Nosotros"
-        pre = "nosotros"
+        identifier = "nosotros"
         url = "/nosotros/index.html"
         weight = 6
+
     [[menu.main]]
         name = "Support us"
-        pre = "support us"
+        identifier = "support us"
         url = "https://www.patreon.com/deltavudea"
         weight = 6
