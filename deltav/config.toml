@@ -1,6 +1,6 @@
-baseURL = ''
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://www.deltavudea.com/'
+languageCode = 'es-BO'
+title = 'DeltaV'
 theme = "deltavtheme"
 
 relativeURLs = true
