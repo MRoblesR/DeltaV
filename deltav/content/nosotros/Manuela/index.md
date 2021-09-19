@@ -1,6 +1,6 @@
 ---
 nombre: "Manuela Zapata Quirós,"
-foto: "MZ.jpg"
+foto: "mz.jpg"
 descripcion: "Miembro de investigación en motores de propelente sólido.
               Miembro del cohete interinstitucional UdeA-UIS.
               Correo: manuela.zapataq@udea.edu.co"
