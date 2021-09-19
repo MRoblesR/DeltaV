@@ -1,6 +1,6 @@
 ---
 nombre: "Juan Camilo Rojas Vásquez "
-foto: "CR.jpg"
+foto: "cr.jpg"
 descripcion: "Miembro de la investigación en Turborreactores del semillero Delta-V.
               Miembro del equipo cohete interinstitucional UdeA-UIS
               Correo: camilo.rojas2@udea.edu.co"
