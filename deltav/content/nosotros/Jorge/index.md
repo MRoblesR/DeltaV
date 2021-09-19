@@ -1,6 +1,6 @@
 ---
 nombre: "Jorge Mario Serna"
-foto: "js.jpg"
+foto: "js.jpeg"
 descripcion: "Miembro de investigación en motores de propelente sólido
                
 puesto: "Estudiante de Ingeniería Aeroespacial, Universidad de Antioquia"
