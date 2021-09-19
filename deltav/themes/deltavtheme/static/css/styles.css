@@ -50,6 +50,9 @@
     }
 }
 
+.row{
+  padding: 1em;
+}
 body {
     margin: 0;
     font-family: 'Louis George Café Light', sans-serif;

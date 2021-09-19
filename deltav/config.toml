@@ -3,6 +3,7 @@ languageCode = 'es-BO'
 title = 'DeltaV'
 theme = "deltavtheme"
 
+magazineImagesPath = "images/PNG-Dobles"
 relativeURLs = true
 [markup.goldmark.renderer]
 unsafe= true
