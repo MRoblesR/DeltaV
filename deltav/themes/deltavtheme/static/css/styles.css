@@ -3098,6 +3098,7 @@ textarea.form-control-lg {
     color: #fff;
     background-color: #64a19d;
     border-color: #64a19d;
+    margin: 1em;
 }
 
 .btn-primary:hover {
@@ -11941,6 +11942,11 @@ body {
 .profile-image {
     width: 15em;
     height: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-top: 1em;
+    border-radius: 15px;
 }
 
 #navbarDropdown {
@@ -11965,4 +11971,8 @@ div#sectionright >img {
     float: right;
     margin: auto;
     width: 20em;
+}
+
+.title{
+  font-weight: bold;
 }
