@@ -1,0 +1,5 @@
+---
+cascade:
+  imageToUse: "PNG-Dobles"
+
+---
