@@ -4416,7 +4416,6 @@ textarea.form-control-lg {
 
 .navbar-collapse {
     flex-basis: 100%;
-    flex-grow: 1;
     align-items: center;
 }
 
@@ -11975,4 +11974,8 @@ div#sectionright >img {
 
 .title{
   font-weight: bold;
+}
+
+#navbarResponsive{
+  float: right;
 }
