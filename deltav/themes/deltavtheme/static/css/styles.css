@@ -11979,3 +11979,7 @@ div#sectionright >img {
 #navbarResponsive{
   float: right;
 }
+
+.dropdownLink{
+  padding: 1em;
+}
