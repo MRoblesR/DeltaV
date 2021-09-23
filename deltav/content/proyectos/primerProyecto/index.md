@@ -1,5 +1,5 @@
 ---
-title: "Primer proyecto"
+title: "primerproyecto"
 date: "2021-08-01"
 cover: "1.png"
 titulo: "Aquí va el título"

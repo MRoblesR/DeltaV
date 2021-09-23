@@ -11983,3 +11983,10 @@ div#sectionright >img {
 .dropdownLink{
   padding: 1em;
 }
+
+#mainContent{
+  padding-top: 6em;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}

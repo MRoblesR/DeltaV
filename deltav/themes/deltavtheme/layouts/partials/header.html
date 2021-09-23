@@ -22,7 +22,7 @@
                         {{ range (where $.Site.Pages "Section" "proyectos").ByDate }}
 
                         {{if (isset .Params "cover") }}
-                        <a class="dropdown-item" href="{{.RelPermalink}}">{{.Name}}</a>
+                        <a class="dropdown-item" href="{{.RelPermalink}}">{{.Params.titulo}}</a>
                         {{ end }}
                         {{end}}
                     </div>
