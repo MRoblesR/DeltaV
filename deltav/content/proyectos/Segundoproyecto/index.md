@@ -1,6 +1,6 @@
 ---
-title: "primerproyecto"
-date: 2021-08-07T23:29:28+02:00
+title: "Segundo proyecto"
+date: "2021-08-02"
 cover: "1.png"
 titulo: "Aquí va el título"
 description: "Esta es una breve descripción de lo que va el proyecto"
@@ -14,6 +14,3 @@ description: "Esta es una breve descripción de lo que va el proyecto"
 blblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablaa
 
 ![Imagen de ejemplo](1.png)
-
-
-

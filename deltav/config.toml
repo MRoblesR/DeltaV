@@ -20,24 +20,6 @@ unsafe= true
         identifier = "proyectos"
         url = "/proyectos/"
         weight = 2
-        [[menu.main]]
-            name = "Proyecto 1"
-            identifier = "proyecto 1"
-            url = "/proyectos/proyecto1/index.html"
-            weight = 1
-            parent = "proyectos"
-        [[menu.main]]
-            name = "Proyecto 2"
-            identifier = "proyecto 2"
-            url = "/proyecto2/index.html"
-            weight = 2
-            parent = "proyectos"
-        [[menu.main]]
-            name = "Proyecto 3"
-            identifier = "proyecto 3"
-            url = "/proyecto3/index.html"
-            weight = 3
-            parent = "proyectos"
 
     [[menu.main]]
         name = "Wiki"

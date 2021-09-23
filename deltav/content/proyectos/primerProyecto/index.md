@@ -1,11 +1,11 @@
 ---
-title: "primerproyecto"
-date: 2021-08-07T23:29:28+02:00
+title: "Primer proyecto"
+date: "2021-08-01"
 cover: "1.png"
 titulo: "Aquí va el título"
 description: "Esta es una breve descripción de lo que va el proyecto"
 ---
-# {{< param titulo >}} 
+# {{< param titulo >}}
 
 ***
 
@@ -45,9 +45,3 @@ Ut eu eleifend sapien, ut volutpat turpis. Duis molestie ipsum urna, eget posuer
 Fusce condimentum velit odio, non tempor lectus feugiat sit amet. Etiam hendrerit tellus ut neque facilisis, vel euismod arcu pellentesque. Aenean quis dui congue, luctus massa in, bibendum tellus. Nulla molestie lectus placerat leo laoreet placerat. Phasellus ex ante, ullamcorper accumsan aliquam sed, pulvinar vel nulla. Pellentesque vel libero quis augue accumsan egestas quis vitae velit. Aliquam semper enim sapien, hendrerit ultricies leo feugiat vel. Suspendisse potenti. Donec luctus libero id vestibulum commodo. Vivamus gravida justo eget justo pulvinar, in tincidunt mi scelerisque. Etiam blandit justo laoreet mi feugiat ornare. Mauris efficitur quis metus vel rhoncus. In feugiat arcu arcu, a rhoncus urna viverra vel. Morbi aliquam neque arcu, a ultrices ipsum cursus aliquam. Etiam pellentesque magna quis dui aliquet commodo. Nulla consequat hendrerit dignissim.
 
 Nulla semper nisi at lacinia rhoncus. Donec ultrices dui nec feugiat gravida. Nullam pulvinar ut odio et vestibulum. Sed sit amet dignissim ante. Cras vehicula neque eu nisi elementum aliquet. Vivamus dignissim arcu odio, at finibus tellus porttitor et. Nam quis lectus sapien. In et pretium est, et cursus urna. Integer vulputate lacus nec erat ultricies, vitae posuere justo interdum. Ut feugiat sagittis mauris.{{% /rightImage %}}
-
-
-
-
-
-

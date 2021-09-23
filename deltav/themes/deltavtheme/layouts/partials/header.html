@@ -12,16 +12,19 @@
             {{ $currentPage := . }}
             <ul class="navbar-nav ml-auto">
                 {{ range .Site.Menus.main }}
-                {{ if .HasChildren }}
+                {{ if eq .Name "Proyectos" }}
                 <li class="nav-item dropdown no-bg">
                     <a class="nav-link dropdown-toggle" href="{{.URL}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                        aria-expanded="false">
                         <span>{{ .Name }}</span>
                     </a>
                     <div class="dropdown-menu " aria-labelledby="navbarDropdown">
-                        {{ range .Children }}
-                        <a class="dropdown-item" href="{{.URL}}">{{.Name}}</a>
+                        {{ range (where $.Site.Pages "Section" "proyectos").ByDate }}
+
+                        {{if (isset .Params "cover") }}
+                        <a class="dropdown-item" href="{{.RelPermalink}}">{{.Name}}</a>
                         {{ end }}
+                        {{end}}
                     </div>
                 </li>
                 {{else}}

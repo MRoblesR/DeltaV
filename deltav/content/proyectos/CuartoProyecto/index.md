@@ -1,6 +1,6 @@
 ---
 title: "cuarto proyecto"
-date: 2021-08-07T23:29:28+02:00
+date: "2021-08-07"
 cover: "1.png"
 titulo: "Aquí va el título"
 description: "Esta es una breve descripción de lo que va el proyecto"
