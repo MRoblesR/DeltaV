@@ -6,7 +6,6 @@ titulo: "Análisis desempeño turbinas existentes."
 description: "Clasificación turbina de RC con la que contamos y realizar ingeniería inversa para acercamiento a conocimiento de una turbina real"
 ---
 
-# {{< param titulo >}}
 
 ***
 

@@ -5,8 +5,6 @@ cover: "1.png"
 titulo: "Relación eficiencia turbina y gases de combustión en tobera"
 description: "Relacionar compuestos químicos en los gases de combustión que salen de la turbina con parámetros de desempeño y tipo de combustible como presión, temperatura, consumo específico, eficiencia, etc.."
 ---
-# {{< param titulo >}}
-
 ***
 
 ## ¿De qué se trata?

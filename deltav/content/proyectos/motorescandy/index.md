@@ -6,7 +6,6 @@ titulo: "Motores candy"
 description: "Es el primer proyecto de la investigación en propulsión sólida para cohete que realiza el Semillero Delta-V"
 
 ---
-# {{< param titulo >}}
 
 ***
 ## ¿De qué se trata y con qué fin?*

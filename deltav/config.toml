@@ -8,6 +8,11 @@ relativeURLs = true
 [markup.goldmark.renderer]
 unsafe= true
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+
 [menu]
     [[menu.main]]
         name = "Inicio"

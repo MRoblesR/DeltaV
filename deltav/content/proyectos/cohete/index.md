@@ -6,7 +6,6 @@ titulo: "COHETE INTERINSTITUCIONAL UdeA - UIS"
 description: "un cohete con requerimientos específicos que pase los estándares de seguridad requeridos por la Fuerza Aérea Colombiana"
 ---
 
-# {{< param titulo >}}
 
 ***
 
