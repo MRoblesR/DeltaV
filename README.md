@@ -32,9 +32,10 @@ linkedin: "https://www.linkedin.com/in/marcos-robles-rodr%C3%ADguez-b867031b7"
   - linkedin
   - whatsapp
   - instagram
+  - email
   7. Pones la foto en la misma carpeta y la pones en el campo foto
   
-  
+  ***
 ## Nueva entrada de proyecto
 1. Accedes a la carpeta de content que corresponda
 2. Creas una carpeta con un nombre identificativo
@@ -42,24 +43,17 @@ linkedin: "https://www.linkedin.com/in/marcos-robles-rodr%C3%ADguez-b867031b7"
 4. Se aceptan los siguientes campos
 ```
 ---
-title: "primero"
-description: "Este es el primer texto"
-date: 2021-08-07
+title: "coehte"
+date: "2021-08-01"
 cover: "1.png"
+titulo: "COHETE INTERINSTITUCIONAL UdeA - UIS"
+description: "un cohete con requerimientos específicos que pase los estándares de seguridad requeridos por la Fuerza Aérea Colombiana"
 ---
 ```
 5. Se rellena con el texto después de los 3 guiones con HTML o markdown
 6. Para poner fotos a la izquiera usas {{% leftImage NOMBREDELAIMAGEN %}}{{ /leftImage %}}
 7. Para poner fotos a la derecha igual pero con right
-8. Vas a config.toml y añades una nueva entrada con el resto así, cambias todo lo que sea proyecto1 por lo que sea
-```
-[[menu.main]]
-            name = "Proyecto 1"
-            identifier = "proyecto 1"
-            url = "/proyectos/proyecto1/index.html"
-            weight = 1
-            parent = "proyectos"
-```
+***
 ## Nueva revista
 
 Sigue los siguientes pasos:
@@ -76,10 +70,14 @@ ossuu: "link a la web de ossuu"
 ---
 ```
 4. Crea una carpeta dentro de la anterior llamada images
-5. Pon todas las imagenes en la carpeta images
+5. Pon todas las imagenes en la carpeta images asegurandote de que están ordenadas por orden alfabético 01,02,03...
 6. Te aseguras de que la fecha está bien
-
+***
+## Nueva entrada de wiki
+1. Creas una carpeta con el nombre que quieras
+2. Rellenas el contenido como en un proyecto
+   
 # Consideraciones
 
 1. Todas las imagenes deberían estar en formato webP
-
+2. Las fechas se utilizan para ordenar el contenido
