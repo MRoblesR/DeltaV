@@ -1,0 +1,39 @@
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="index.html"><img class="logo" src="/assets/delta.v.png"></a>
+        <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive" data-bs-toggle="collapse"
+                type="button">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            {{ $currentPage := . }}
+            <ul class="navbar-nav ml-auto">
+                {{ range .Site.Menus.main }}
+                {{ if .HasChildren }}
+                <li class="nav-item dropdown no-bg">
+                    <a class="nav-link dropdown-toggle" href="{{.URL}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                       aria-expanded="false">
+                        <span>{{ .Name }}</span>
+                    </a>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                        {{ range .Children }}
+                        <a class="dropdown-item" href="{{.URL}}">{{.Name}}</a>
+                        {{ end }}
+                    </div>
+                </li>
+                {{else}}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{.URL}}">
+                        {{ .Pre }}
+                        <span>{{ .Name }}</span>
+                    </a>
+                </li>
+                {{end}}
+                {{end}}
+            </ul>
+        </div>
+    </div>
+</nav>
