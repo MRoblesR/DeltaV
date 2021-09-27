@@ -1,5 +1,5 @@
 ---
 cascade:
-  imageToUse: "PNG-Dobles"
+  flipbook: true
 
 ---
