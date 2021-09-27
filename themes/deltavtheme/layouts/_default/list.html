@@ -1,0 +1,41 @@
+{{ define "main" }}
+<!-- Masthead-->
+<header class="masthead">
+    <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+        <div class="d-flex justify-content-center">
+            <div class="text-center">
+                <h1 class="mx-auto my-0 text-uppercase">Blog</h1>
+                <h2 class="text-white-50 mx-auto mt-2 mb-5">Lee nuestros artículos más destacados</h2>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Projects-->
+<section class="projects-section" id="projects">
+    <div class="container px-4 px-lg-5">
+        <!-- Featured Project Row-->
+        <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+
+            <!-- blog-->
+            <section class="blog-section" id="blog">
+                <div class="container px-4 px-lg-5">
+                    <div class="row gx-0 mb-8 mb-lg-5 align-items-center">
+                        {{ range .Pages.ByPublishDate.Reverse }}
+
+                        <div class="col-xl-6 col-md-12 EntradaBlog">
+                            <img alt="..." class="img-fluid mb-3 mb-lg-0 " src="https://i.imgur.com/xSraADG.jpeg"/>
+                            <h4>{{ .Title }}</h4>
+                            <date> {{ .Date }}</date>
+                            <p>{{ .Description }}</p>
+                            <a href="{{ .RelPermalink }}">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>
+
+{{ end }}
+{{ end }}
