@@ -11997,17 +11997,12 @@ div#sectionright >img {
 }
 
 .flipbook-viewport .container{
-	position:absolute;
-	top:50%;
-	left:50%;
-	margin:auto;
+	position:relative;
 }
 
 .flipbook-viewport .flipbook{
 	width:922px;
 	height:600px;
-	left:-461px;
-	top:-300px;
 }
 
 .flipbook-viewport .page{
