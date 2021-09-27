@@ -24,9 +24,7 @@
             <div class="flipbook">
               {{range .Resources.ByType "image"}}
               <div style="background-image:url({{.RelPermalink}})"></div>
-
               {{end}}
-
             </div>
           </div>
         </div>
@@ -35,9 +33,9 @@
       <!-- Fin carousel -->
       <div class="col-12">
         <div class="featured-text text-center ">
-          <h4 style="padding: 15px">Título de la revista</h4>
+          <h4 style="padding: 15px">{{.Params.Titulo}}</h4>
           <p class="mb-0">{{.Description}}</p>
-          <a href="">Ossuu</a>
+          <a href="{{.Params.ossuu}}">Ossuu</a>
         </div>
       </div>
     </div>
