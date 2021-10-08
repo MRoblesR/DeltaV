@@ -56,8 +56,8 @@
 
 @font-face {
     font-family: 'louis_george_caferegular';
-    src: url('../assets/font/louis_george_cafe-webfont.woff2') format('woff2'),
-         url('../assets/font/louis_george_cafe-webfont.woff') format('woff');
+    src: url('/assets/font/louis_george_cafe-webfont.woff2') format('woff2'),
+         url('/assets/font/louis_george_cafe-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -65,7 +65,7 @@
 
 body {
     margin: 0;
-    font-family: 'Louis George Café Light', sans-serif;
+    font-family: 'louis_george_caferegular', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
