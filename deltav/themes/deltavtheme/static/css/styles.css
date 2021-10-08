@@ -60,6 +60,8 @@
          url('/assets/font/louis_george_cafe-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
+
 
 }
 
