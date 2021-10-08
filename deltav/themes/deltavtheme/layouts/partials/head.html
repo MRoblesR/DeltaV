@@ -1,6 +1,12 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="description" content="Semillero con el propósito de desarrollar el tema de coheteria y propulsión con una fuerte especialización en su diseño y construcción.Participar en competencias internacionales">
+    <meta name="keywords" content="{{ with .Params.keywords }}{{ delimit . ", "}}{{ end }}">
+    <meta name="theme-color" content="#fd7e14">
+    <meta name="generator" content="hugo">
+    <meta name="subject" content="cohetería">
+    <meta name="geo.region" content="CO">
     <link href='{{"css/styles.css" | relURL}}' rel="stylesheet">
     {{ $title := print .Site.Title " | " .Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
