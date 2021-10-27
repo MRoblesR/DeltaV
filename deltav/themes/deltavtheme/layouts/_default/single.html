@@ -1,6 +1,10 @@
 {{ define "main" }}
 <br><br>
 <section id="mainContent">
-{{ .Content }}
+  <h1>{{.Params.titulo}}</h1>
+  {{if (isset .Params "parent")}}
+  <h3>{{.Params.parent}}</h3>
+  {{end}}
+  {{ .Content }}
 </section>
 {{ end }}

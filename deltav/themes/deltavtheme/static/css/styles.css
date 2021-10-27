@@ -53,9 +53,21 @@
 .row{
   padding: 1em;
 }
+
+@font-face {
+    font-family: 'louis_george_caferegular';
+    src: url('/assets/font/louis_george_cafe-webfont.woff2') format('woff2'),
+         url('/assets/font/louis_george_cafe-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+
+}
+
 body {
     margin: 0;
-    font-family: 'Louis George Café Light', sans-serif;
+    font-family: 'louis_george_caferegular', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -11989,4 +12001,57 @@ div#sectionright >img {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+}
+.flipbook-viewport{
+	overflow:hidden;
+	width:100%;
+	height:100%;
+}
+
+.flipbook-viewport .container{
+	position:relative;
+}
+
+.flipbook-viewport .flipbook{
+	width:922px;
+	height:600px;
+}
+
+.flipbook-viewport .page{
+	width:461px;
+	height:600px;
+	background-color:white;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.flipbook .page{
+	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-ms-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-o-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+.flipbook-viewport .page img{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin:0;
+}
+
+.flipbook-viewport .shadow{
+	-webkit-transition: -webkit-box-shadow 0.5s;
+	-moz-transition: -moz-box-shadow 0.5s;
+	-o-transition: -webkit-box-shadow 0.5s;
+	-ms-transition: -ms-box-shadow 0.5s;
+
+	-webkit-box-shadow:0 0 20px #ccc;
+	-moz-box-shadow:0 0 20px #ccc;
+	-o-box-shadow:0 0 20px #ccc;
+	-ms-box-shadow:0 0 20px #ccc;
+	box-shadow:0 0 20px #ccc;
 }
