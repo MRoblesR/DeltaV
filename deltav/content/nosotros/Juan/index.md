@@ -9,4 +9,6 @@ descripcion: "- Miembro de la investigación en motores de propelente sólido.
 puesto: "- Par Coordinador , 
          - Estudiante de Ingeniería Aeroespacial, Universidad de Antioquia"
 email: "juan.mejiag1@udea.edu.co"
+
+rango: "coordinador"
 ---

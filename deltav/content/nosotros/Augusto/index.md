@@ -6,4 +6,5 @@ descripcion: "- Miembro de investigación en sistemas de control de propulsión 
               - Miembro del cohete interinstitucional UdeA-UIS."
 puesto: "- Estudiante de Ingeniería Aeroespacial, Universidad de Antioquia"
 email: "sebastian.zapatag1@udea.edu.co"
+rango: "estudiante"
 ---

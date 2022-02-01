@@ -9,4 +9,5 @@ descripcion: "- Miembro de la investigación en Turborreactores del semillero De
 puesto: "- Par Coordinador, 
          - Estudiante de Ingeniería Aeroespacial, Universidad de Antioquia."
 email: "salberto.velez@udea.edu.co"
+rango: "coordinador"
 ---
