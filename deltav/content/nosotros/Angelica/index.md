@@ -7,4 +7,6 @@ descripcion: "- Miembro de investigación en Turborreactores del semillero Delta
 
 puesto: "- Estudiante de Ingeniería Aeroespacial, Universidad de Antioquia."
 Email: "angelica.turizo@udea.edu.co"
+
+rango: "coordinador"
 ---

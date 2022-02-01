@@ -1,47 +1,113 @@
-{{define "main"}}
-{{- partial "masthead" (dict "mainTitle" "Nosotros" "subtitle" "Descubre quienes somos" )}}
+{{define "main"}} {{- partial "masthead" (dict "mainTitle" "Nosotros" "subtitle" "Descubre quienes somos" )}}
 <!-- accordion -->
 <br>
 <br>
 <br>
 <br>
 <section id="Coordinadores" class="p-xl-5">
-  <h1>Coordinadores</h1>
-  <div class="row">
+    <h1>Coordinadores</h1>
+    <div class="row">
+        {{ range .Pages.ByParam "nombre" }} {{ if eq .Params.rango "coordinador" }}
 
-    {{ range .Pages.ByParam "nombre" }}
-    <div class="col-xl-3 col-md-6 col-sm-12 p-xl-4">
-      <div class="card">
-        <img class="profile-image" alt="Foto de {{.Params.nombre}}" src="{{.Title}}/{{ .Params.foto }}">
-        <div class="container">
-          <h2>{{.Params.nombre}}</h2>
-          <p class="title">{{.Params.posicion}}</p>
-          <p>{{ .Params.descripcion}}</p>
-          <div class="dropdown">
-            <button aria-expanded="false" aria-haspopup="true" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" type="button">
+        <div class="col-xl-3 col-md-6 col-sm-12 p-xl-4">
+            <div class="card">
+                <img class="profile-image" alt="Foto de {{.Params.nombre}}" src="{{.Title}}/{{ .Params.foto }}">
+                <div class="container">
+                    <h2>{{.Params.nombre}}</h2>
+                    <p class="title">{{.Params.posicion}}</p>
+                    <p>{{ .Params.descripcion}}</p>
+                    <div class="dropdown">
+                        <button aria-expanded="false" aria-haspopup="true" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" type="button">
               Contactar
             </button>
-            <div aria-labelledby="dropdownMenuButton" class="dropdown-menu">
-              <ul>
-                {{if isset .Params "email"}}
-                <li><a class="dropdownLink" href="mailto:{{.Params.email}}" target="_blank"><i class="fas fa-envelope"></i> {{.Params.email}} </a></li>
-                {{end}}
-                {{if isset .Params "linkedin"}}
-                <li><a class="dropdownLink" href="{{.Params.linkedin}}"><i class="fab fa-linkedin"></i> LinkedIn </a></li>
-                {{end}}
-                {{if isset .Params "whatsapp"}}
-                <li><a class="dropdownLink" href="{{.Params.whatsapp}}"><i class="fab fa-whatsapp"></i> Whatsapp </a></li>
-                {{end}}
-                {{if isset .Params "instagram"}}
-                <li><a class="dropdownLink" href="{{.Params.instagram}}"><i class="fab fa-instagram"></i> Instagram </a></li>
-                {{end}}
-              </ul>
+                        <div aria-labelledby="dropdownMenuButton" class="dropdown-menu">
+                            <ul>
+                                {{if isset .Params "email"}}
+                                <li><a class="dropdownLink" href="mailto:{{.Params.email}}" target="_blank"><i class="fas fa-envelope"></i> {{.Params.email}} </a></li>
+                                {{end}} {{if isset .Params "linkedin"}}
+                                <li><a class="dropdownLink" href="{{.Params.linkedin}}"><i class="fab fa-linkedin"></i> LinkedIn </a></li>
+                                {{end}} {{if isset .Params "whatsapp"}}
+                                <li><a class="dropdownLink" href="{{.Params.whatsapp}}"><i class="fab fa-whatsapp"></i> Whatsapp </a></li>
+                                {{end}} {{if isset .Params "instagram"}}
+                                <li><a class="dropdownLink" href="{{.Params.instagram}}"><i class="fab fa-instagram"></i> Instagram </a></li>
+                                {{end}}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-    {{end}}
-  </div>
+        {{end}} {{end}}
+        <h1>Estudiantes</h1>
+
+        <div class="row">
+            {{ range .Pages.ByParam "nombre" }} {{ if eq .Params.rango "estudiante" }}
+
+            <div class="col-xl-3 col-md-6 col-sm-12 p-xl-4">
+                <div class="card">
+                    <img class="profile-image" alt="Foto de {{.Params.nombre}}" src="{{.Title}}/{{ .Params.foto }}">
+                    <div class="container">
+                        <h2>{{.Params.nombre}}</h2>
+                        <p class="title">{{.Params.posicion}}</p>
+                        <p>{{ .Params.descripcion}}</p>
+                        <div class="dropdown">
+                            <button aria-expanded="false" aria-haspopup="true" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" type="button">
+              Contactar
+            </button>
+                            <div aria-labelledby="dropdownMenuButton" class="dropdown-menu">
+                                <ul>
+                                    {{if isset .Params "email"}}
+                                    <li><a class="dropdownLink" href="mailto:{{.Params.email}}" target="_blank"><i class="fas fa-envelope"></i> {{.Params.email}} </a></li>
+                                    {{end}} {{if isset .Params "linkedin"}}
+                                    <li><a class="dropdownLink" href="{{.Params.linkedin}}"><i class="fab fa-linkedin"></i> LinkedIn </a></li>
+                                    {{end}} {{if isset .Params "whatsapp"}}
+                                    <li><a class="dropdownLink" href="{{.Params.whatsapp}}"><i class="fab fa-whatsapp"></i> Whatsapp </a></li>
+                                    {{end}} {{if isset .Params "instagram"}}
+                                    <li><a class="dropdownLink" href="{{.Params.instagram}}"><i class="fab fa-instagram"></i> Instagram </a></li>
+                                    {{end}}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{end}} {{end}}
+        </div>
+
+        <h1>Auxiliares</h1>
+
+        <div class="row">
+            {{ range .Pages.ByParam "nombre" }} {{ if eq .Params.rango "estudiante" }}
+
+            <div class="col-xl-3 col-md-6 col-sm-12 p-xl-4">
+                <div class="card">
+                    <img class="profile-image" alt="Foto de {{.Params.nombre}}" src="{{.Title}}/{{ .Params.foto }}">
+                    <div class="container">
+                        <h2>{{.Params.nombre}}</h2>
+                        <p class="title">{{.Params.posicion}}</p>
+                        <p>{{ .Params.descripcion}}</p>
+                        <div class="dropdown">
+                            <button aria-expanded="false" aria-haspopup="true" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" type="button">
+              Contactar
+            </button>
+                            <div aria-labelledby="dropdownMenuButton" class="dropdown-menu">
+                                <ul>
+                                    {{if isset .Params "email"}}
+                                    <li><a class="dropdownLink" href="mailto:{{.Params.email}}" target="_blank"><i class="fas fa-envelope"></i> {{.Params.email}} </a></li>
+                                    {{end}} {{if isset .Params "linkedin"}}
+                                    <li><a class="dropdownLink" href="{{.Params.linkedin}}"><i class="fab fa-linkedin"></i> LinkedIn </a></li>
+                                    {{end}} {{if isset .Params "whatsapp"}}
+                                    <li><a class="dropdownLink" href="{{.Params.whatsapp}}"><i class="fab fa-whatsapp"></i> Whatsapp </a></li>
+                                    {{end}} {{if isset .Params "instagram"}}
+                                    <li><a class="dropdownLink" href="{{.Params.instagram}}"><i class="fab fa-instagram"></i> Instagram </a></li>
+                                    {{end}}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{end}} {{end}}
+        </div>
 </section>
 {{end}}
