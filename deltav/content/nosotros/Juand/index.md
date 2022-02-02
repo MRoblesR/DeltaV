@@ -1,5 +1,5 @@
 ---
-Title: "Juand"
+Title: "juand"
 nombre: "Juan David Osorio Henao"
 foto: "jo.webp"
 descripcion: "- Ingeniero Civil, Universidad Nacional de Colombia

@@ -1,5 +1,5 @@
 ---
-Title: "Daniel"
+Title: "daniel"
 nombre: "Daniel Esteban Ramírez Guevara"
 foto: "de.webp"
 descripcion: "- Miembro de la investigación en Turborreactores del semillero Delta-V."

@@ -1,5 +1,5 @@
 ---
-Title: "Jaider"
+Title: "jaider"
 nombre: "Jaider J. Alzate López"
 foto: "jj.webp"
 descripcion: "- Miembro de investigación en sistemas de control de propulsión y guiado."

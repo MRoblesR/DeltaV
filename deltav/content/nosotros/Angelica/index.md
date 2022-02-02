@@ -1,5 +1,5 @@
 ---
-Title: "Angelica"
+Title: "angelica"
 nombre: "Angélica Turizo Donado"
 foto: "at.webp"
 descripcion: "- Miembro de investigación en Turborreactores del semillero Delta-V."

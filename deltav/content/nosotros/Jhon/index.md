@@ -1,5 +1,5 @@
 ---
-Title: "Jhon"
+Title: "jhon"
 nombre: "Jhon Sebastian Amaya Salcedo"
 foto: "ja.webp"
 descripcion: "- Miembro de investigación en sistemas de control de propulsión y guiado.

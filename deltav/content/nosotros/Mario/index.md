@@ -1,5 +1,5 @@
 ---
-Title: "Mario"
+Title: "mario"
 nombre: "Mario Andrés Silva Gómez"
 foto: "ms.webp"
 descripcion: "- Ingeniero Mecánico.

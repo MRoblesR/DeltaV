@@ -1,7 +1,7 @@
 ---
-title: "relacion"
+title: "turbinaboeing/relacion"
 date: "2021-08-01"
-cover: "05.webp"
+cover: "05.jpg"
 titulo: "Relación eficiencia turbina y gases de combustión en tobera"
 description: "Relacionar compuestos químicos en los gases de combustión que salen de la turbina con parámetros de desempeño y tipo de combustible como presión, temperatura, consumo específico, eficiencia, etc.."
 ---

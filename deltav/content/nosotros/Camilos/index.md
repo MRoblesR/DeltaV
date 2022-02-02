@@ -1,5 +1,5 @@
 ---
-Title: "camiloS"
+Title: "camilos"
 nombre: "Juan Camilo Rojas Vásquez"
 foto: "cs.webp"
 descripcion: "- Miembro de investigación en motores de propelente sólido."

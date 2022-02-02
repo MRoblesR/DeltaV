@@ -1,5 +1,5 @@
 ---
-Title: "Julio"
+Title: "julio"
 nombre: "Julio César Salazar Taborda"
 foto: "jc.webp"
 descripcion: "- Miembro de la investigación en Turborreactores del semillero Delta-V.

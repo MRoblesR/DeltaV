@@ -1,7 +1,7 @@
 ---
-title: "analisis"
+title: "turbinaboeing/analisis"
 date: "2021-08-01"
-cover: "01.webp"
+cover: "01.jpg"
 titulo: "Análisis desempeño turbinas existentes."
 description: "Clasificación turbina de RC con la que contamos y realizar ingeniería inversa para acercamiento a conocimiento de una turbina real"
 ---

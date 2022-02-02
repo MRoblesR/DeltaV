@@ -1,5 +1,5 @@
 ---
-Title: "Julianv"
+Title: "julianv"
 nombre: "Julián Andrés Villa del Río"
 foto: "jv.webp"
 descripcion: "- Contador público, Universidad de Antioquia.

@@ -1,5 +1,5 @@
 ---
-title: "coehte"
+title: "cohete"
 date: "2021-08-01"
 cover: "01.webp"
 titulo: "COHETE INTERINSTITUCIONAL UdeA - UIS"

@@ -1,5 +1,5 @@
 ---
-Title: "Lina"
+Title: "lina"
 nombre: "Lina Marcela Solano Castellanos"
 foto: "lm.webp"
 descripcion: "- Miembro de Investigación en motores de propelente sólido. " 
