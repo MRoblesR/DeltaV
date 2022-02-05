@@ -1,7 +1,7 @@
 ---
 Title: "oriana"
 nombre: "Oriana Mejía Cardona "
-foto: "om.jpg"
+foto: "om.webp"
 descripcion: "- Miembro del cohete interinstitucional UdeA-UIS.
               - Miembro de investigación en motores de propelente sólido"
 
