@@ -54,7 +54,17 @@ Se realizará la investigación realizando simulaciones con software especializa
 - Nicolás Buriticá Isaza
 - Julio César Taborda
 - Santiago Vélez
-- Daniel Ramírez.
+- Daniel Ramírez
+
+***
+
+![texto alternativo](011t.webp)
+![texto alternativo](012t.webp)
+![texto alternativo](013t.webp)
+![texto alternativo](014t.webp)
+![texto alternativo](015t.webp)
+
+
 
 ***
 
@@ -79,6 +89,10 @@ Relacionar compuestos químicos en los gases de combustión que salen de la turb
 
 ***
 
+![texto alternativo](04t.webp)
+
+***
+
 ## ¿Con qué fin?
 
 
@@ -86,22 +100,37 @@ Profundizar en conocimiento de compuestos químicos en el combustible y en los g
 
 
 ***
+
 ## ¿Cómo?
+
 Se usará un analizador de gases de combustión por celda electroquímica para identificar parámetros químicos y físicos del flujo de gases como O2, CO, CO2, Nox, So2, Exceso de aire, Eficiencia de combustión, temperatura en gases de salida, presión en gases de salida y se variará la potencia de prueba y el combustible para relacionar con datos obtenidos con el analizador y poder trazar una ruta de profundización en uso de nuevos combustibles.
 
 ***
 ## Project Managers
-Mario Silva
+
+- Mario Silva
+***
+
+![texto alternativo](010t.webp)
 
 ***
 
 ## Conoce al equipo
-- Angélica Turizo
-- Jorge Serna, Samuel López
-- Mario Silva
-- Juan José.
+- Angélica Turizo  
+
+- Jorge Serna     
+
+- Samuel López     
+
+- Juan José.        
+
+***
+
+![texto alternativo](06t.webp)
+![texto alternativo](07t.webp)
+![texto alternativo](08t.webp)
+![texto alternativo](09t.webp)
 
 ***
 
 
-![texto alternativo](04t.webp)

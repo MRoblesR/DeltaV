@@ -16,16 +16,18 @@ Es el primer proyecto de la investigación en propulsión sólida para cohete qu
 
 ![texto alternativo](02m.webp)
 
-
+***
 
 ## ¿Como?
 Con el apoyo del grupo Astra, y la institucionalidad de la Universidad de Antioquia, se han llevado a cabo las primeras etapas de investigación y pruebas.
+
 ***
 
 ![texto alternativo](03m.webp)
 
 ![texto alternativo](05m.webp)
 
+***
 
 ## El equipo
 
@@ -37,7 +39,7 @@ Con el apoyo del grupo Astra, y la institucionalidad de la Universidad de Antioq
 - Juan Diego Infante
 - Lina Solano
 - Felipe Burbano
-- Samuel L´ópez Zapata
+- Samuel López Zapata
 - Nicolás Buriticá
 - Juan José Mejía
 - Santiago Vélez Casallas
