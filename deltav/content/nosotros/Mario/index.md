@@ -8,4 +8,5 @@ descripcion: "- Ingeniero Mecánico.
 
 puesto: "- Estudiante de Ingeniería Aeroespacial, Universidad de Antioquia."
 Email: "mario.silva@udea.edu.co"
+rango: "estudiante"
 ---

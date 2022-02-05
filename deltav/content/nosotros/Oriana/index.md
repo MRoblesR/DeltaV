@@ -7,4 +7,5 @@ descripcion: "- Miembro del cohete interinstitucional UdeA-UIS.
 
 puesto: "- Estudiante de ingeniería mecánica, Universidad de Antioquia"
 email: "oriana.mejia@udea.edu.co"
+rango: "estudiante"
 ---

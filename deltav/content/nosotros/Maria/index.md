@@ -8,4 +8,5 @@ descripcion: "- Ingeniera Mecánica, Universidad EAFIT
 
 puesto: "- Estudiante de Ingeniería Aeroespacial, Universidad de Antioquia"
 email: "maria.boterob@udea.edu.co"
+rango: "estudiante"
 ---

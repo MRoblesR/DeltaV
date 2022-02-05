@@ -7,4 +7,5 @@ descripcion: "- Miembro de investigación en sistemas de control de propulsión 
 
 puesto: "- Estudiante de Ingeniería Aeroespacial, Universidad de Antioquia."
 Email: "jaider.alzate@udea.edu.co"
+rango: "estudiante"
 ---

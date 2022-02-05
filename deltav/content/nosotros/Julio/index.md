@@ -8,4 +8,5 @@ descripcion: "- Miembro de la investigación en Turborreactores del semillero De
 
 puesto: "- Estudiante de Ingeniería Aeroespacial, Universidad de Antioquia."
 Email: "julioc.salazar@udea.edu.co"
+rango: "estudiante"
 ---

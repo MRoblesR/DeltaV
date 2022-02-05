@@ -8,4 +8,5 @@ descripcion: "- Contador público, Universidad de Antioquia.
 
 puesto: "- Estudiante de Ingeniería Aeroespacial, Universidad de Antioquia."
 Email: "julian.villad@udea.edu.co"
+rango: "estudiante"
 ---

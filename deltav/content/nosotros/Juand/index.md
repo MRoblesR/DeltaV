@@ -10,4 +10,5 @@ descripcion: "- Ingeniero Civil, Universidad Nacional de Colombia
               
 puesto: "- Estudiante de Ingeniería Aeroespacial. Universidad de Antioquia."
 Email: " jdosorioh@unal.edu.co"
+rango: "estudiante"
 ---

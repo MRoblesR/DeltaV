@@ -7,4 +7,5 @@ descripcion: "- Miembro de investigación en motores de propelente sólido
 
 puesto: "- Estudiante de Ingeniería Aeroespacial, Universidad de Antioquia"
 email: "samuel.lopezz@udea.edu.co"
+rango: "estudiante"
 ---

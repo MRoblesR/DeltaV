@@ -6,4 +6,5 @@ descripcion: "- Miembro de investigación en sistemas de control de propulsión 
 
 puesto: "- Estudiante de Ingeniería Aeroespacial, Universidad de Antioquia"
 email: "sebastian.leons@udea.edu.com"
+rango: "estudiante"
 ---
