@@ -1,5 +1,4 @@
-{{ define "main" }}
-{{- partial "masthead" (dict "mainTitle" "Delta-V" "subtitle" "Semillero de cohetería y propulsión, UdeA" )}}
+{{ define "main" }} {{- partial "masthead" (dict "mainTitle" "Delta-V" "subtitle" "Semillero de cohetería y propulsión, UdeA" )}}
 
 <!-- About-->
 <section class="about-section text-center" id="about">
@@ -8,8 +7,7 @@
             <div class="col-lg-8">
                 <h2 class="text-white mb-4">It’s Just Rocket Science</h2>
                 <p class="text-white-50">
-                    Semillero del pregrado de Ingeniería Aeroespacial de la Universidad de Antioquia, 
-					enfocado en la investigación sobre cohetería y propulsión en vehículos aeroespaciales
+                    Semillero del pregrado de Ingeniería Aeroespacial de la Universidad de Antioquia, enfocado en la investigación sobre cohetería y propulsión en vehículos aeroespaciales
                 </p>
             </div>
         </div>
@@ -21,12 +19,10 @@
         <!-- Featured Project Row-->
         <h1>Proyectos</h1>
         <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-            {{ range where .Site.Pages "Section" "proyectos" }}
-            {{if (isset .Params "cover") }}
+            {{ range where .Site.Pages "Section" "proyectos" }} {{if (isset .Params "cover") }}
             <div class="col-xl-3 col-md-6 col-sm-12 p-xl-4 px-3 py-3">
                 <div class="card">
-                    <img alt="Foto de {{.Params.Cover}}" class="card-img"
-                         src="/proyectos/{{.Title}}/{{ .Params.cover }}">
+                    <img alt="Foto de {{.Params.Cover}}" class="card-img" src="/proyectos/{{.Title}}/{{ .Params.cover }}">
                     <div class="container">
                         <h2>{{.Params.titulo}}</h2>
                         <p>{{ .Description}}</p>
@@ -34,8 +30,7 @@
                     </div>
                 </div>
             </div>
-            {{end}}
-            {{end}}
+            {{end}} {{end}}
         </div>
     </div>
 </section>
@@ -44,7 +39,7 @@
     <div class="container px-4 px-lg-5">
         <!-- Featured wiki Row-->
         <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-            <div class="col-xl-8 col-lg-7"><img alt="..." class="img-fluid mb-3 mb-lg-0" src="assets/img/wik.webp"/>
+            <div class="col-xl-8 col-lg-7"><img alt="..." class="img-fluid mb-3 mb-lg-0" src="assets/img/wik.webp" />
             </div>
             <div class="col-xl-4 col-lg-5">
                 <div class="featured-text text-center text-lg-left">
@@ -62,7 +57,7 @@
     <div class="container px-4 px-lg-5">
         <!-- Featured revista Row-->
         <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-            <div class="col-xl-8 col-lg-7"><img alt="..." class="img-fluid mb-3 mb-lg-0" src="assets/img/rev.webp"/>
+            <div class="col-xl-8 col-lg-7"><img alt="..." class="img-fluid mb-3 mb-lg-0" src="assets/img/rev.webp" />
             </div>
             <div class="col-xl-4 col-lg-5">
                 <div class="featured-text text-center text-lg-left">
@@ -81,18 +76,15 @@
     <div class="container px-4 px-lg-5">
 
         <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-            <div class="col-lg-6"><img alt="..." class="img-fluid" src="assets/img/mis.gif"/></div>
+            <div class="col-lg-6"><img alt="..." class="img-fluid" src="assets/img/mis.gif" /></div>
             <div class="col-lg-6">
                 <div class="bg-black text-center h-100 project">
                     <div class="d-flex h-100">
                         <div class="project-text w-100 my-auto text-center text-lg-left">
                             <h4>Misión</h4>
-                            <p class="mb-0  px-xl-5">Nuestra misión es formarnos con el autoaprendizaje, la
-                                investigación y las experiencias, imponernos retos para innovar en lo aprendido y con
-                                ello algún día alcanzar la madurez científica de articular misiones de índole
-                                aeroespacial junto a la comunidad académica, empresarial y estatal que desee
-                                acompañarnos hacia la misma meta.</p>
-                            <hr class="d-none d-lg-block mb-0 ms-0"/>
+                            <p class="mb-0  px-xl-5">Nuestra misión es formarnos con el autoaprendizaje, la investigación y las experiencias, imponernos retos para innovar en lo aprendido y con ello algún día alcanzar la madurez científica de articular misiones de índole aeroespacial
+                                junto a la comunidad académica, empresarial y estatal que desee acompañarnos hacia la misma meta.</p>
+                            <hr class="d-none d-lg-block mb-0 ms-0" />
                         </div>
                     </div>
                 </div>
@@ -100,18 +92,15 @@
         </div>
         <!-- Project Two Row-->
         <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-            <div class="col-lg-6"><img alt="..." class="img-fluid" src="assets/img/deltateam.webp"/></div>
+            <div class="col-lg-6"><img alt="..." class="img-fluid" src="assets/img/deltateam.webp" /></div>
             <div class="col-lg-6 order-lg-first">
                 <div class="bg-black text-center h-100 project">
                     <div class="d-flex h-100">
                         <div class="project-text w-100 my-auto text-center text-lg-right">
                             <h4>Visión</h4>
-                            <p class="mb-0  px-xl-5">Los semilleristas de Delta-V se ven a futuro como
-                                integrantes de un equipo líder en cohetería para el contexto nacional e internacional y
-                                que represente con orgullo a la Universidad y al país, siendo referentes en
-                                investigación y aplicación de sistemas de propulsión, y dejando un legado de innovación
-                                y continuidad a la carrera en este ámbito.</p>
-                            <hr class="d-none d-lg-block mb-0 ms-0"/>
+                            <p class="mb-0  px-xl-5">Los semilleristas de Delta-V se ven a futuro como integrantes de un equipo líder en cohetería para el contexto nacional e internacional y que represente con orgullo a la Universidad y al país, siendo referentes en investigación
+                                y aplicación de sistemas de propulsión, y dejando un legado de innovación y continuidad a la carrera en este ámbito.</p>
+                            <hr class="d-none d-lg-block mb-0 ms-0" />
 
                         </div>
                     </div>
@@ -120,26 +109,4 @@
         </div>
     </div>
 </section>
-<br/><br/>
-<!-- Signup-->
-<!-- Para esta parte se requiere de un backend que de momento no está disponible -->
-<!--
-<section class="signup-section" id="signup">
-    <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5">
-            <div class="col-md-10 col-lg-8 mx-auto text-center">
-                <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                <h2 class="text-white mb-5">Suscribete para recibir actualizaciones</h2>
-                <form class="form-signup d-flex flex-column flex-sm-row">
-                    <input class="form-control flex-fill me-0 me-sm-2 mb-3 mb-sm-0" id="inputEmail"
-                           placeholder="Ingresa tu correo..."
-                           type="email"/>
-                    <button class="btn btn-primary" type="submit">Subscribe</button>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
--->
-
-{{ end }}
+<br/><br/> {{ end }}
