@@ -1,0 +1,33 @@
+{{ define "main" }}
+<br><br>
+<section id="mainContent">
+    <h1>{{.Params.titulo}}</h1>
+    {{if (isset .Params "parent")}}
+    <h3>{{.Params.parent}}</h3>
+    {{end}} {{ .Content }}
+    <h1>Conoce al equipo</h1>
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <h2>Project manager </h2>
+            {{$manager := .Params.manager}} {{ range where .Site.Pages "Section" "nosotros" }}{{if eq $manager .Title}}
+            <div class="col-md-6 col-sm-12">
+                <img class="profile-image" alt="Foto de {{.Params.nombre}}" src="/nosotros/{{.Title}}/{{ .Params.foto }}">
+            </div>
+            {{end}}{{end}}
+        </div>
+
+        <div class="col-md-6 col-sm-12">
+            <h2>Miembros</h2>
+            <div class="row">
+                {{$miembros := .Params.members}} {{ range where .Site.Pages "Section" "nosotros" }}{{if in $miembros .Title}}
+                <div class="col-md-6 col-sm-12">
+                    <img class="profile-image-project" alt="Foto de {{.Params.nombre}}" src="/nosotros/{{.Title}}/{{ .Params.foto }}">
+                </div>
+                {{end}} {{end}}
+            </div>
+        </div>
+
+    </div>
+</section>
+
+{{ end }}

@@ -4,6 +4,8 @@ date: "2021-08-01"
 cover: "01c.webp"
 titulo: "Cohete Interinstitucional UdeA - UIS"
 description: "un cohete con requerimientos específicos que pase los estándares de seguridad requeridos por la Fuerza Aérea Colombiana"
+manager: "angelica"
+members: ["angelica","marcos","juan"]
 ---
 
 
