@@ -4,7 +4,8 @@ date: "2021-08-01"
 cover: "01m.webp"
 titulo: "Motores De Propelente Solido"
 description: "Es el primer proyecto de la investigación en propulsión sólida para cohete que realiza el Semillero Delta-V"
-
+manager:"laura"
+members:["maria","manuela","camilos","luis","santiago","juan","camilo","nicolas","julio","jorge","lina"]
 ---
 
 ***
