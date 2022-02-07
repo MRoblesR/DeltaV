@@ -58,11 +58,11 @@ Se realizará la investigación realizando simulaciones con software especializa
 
 ***
 
-![texto alternativo](011t.webp)
-![texto alternativo](012t.webp)
-![texto alternativo](013t.webp)
-![texto alternativo](014t.webp)
-![texto alternativo](015t.webp)
+![texto alternativo](011t.webp){width=170px height=170px}
+![texto alternativo](012t.webp){width=170px height=170px}
+![texto alternativo](013t.webp){width=170px height=170px}
+![texto alternativo](014t.webp){width=170px height=170px}
+![texto alternativo](015t.webp){width=170px height=170px}
 
 
 
@@ -111,7 +111,7 @@ Se usará un analizador de gases de combustión por celda electroquímica para i
 - Mario Silva
 ***
 
-![texto alternativo](010t.webp)
+![texto alternativo](010t.webp){width=700 height=1070px}
 
 ***
 
@@ -126,10 +126,10 @@ Se usará un analizador de gases de combustión por celda electroquímica para i
 
 ***
 
-![texto alternativo](06t.webp)
-![texto alternativo](07t.webp)
-![texto alternativo](08t.webp)
-![texto alternativo](09t.webp)
+![texto alternativo](06t.webp){width=170px height=170px}
+![texto alternativo](07t.webp){width=170px height=170px}
+![texto alternativo](08t.webp){width=170px height=170px}
+![texto alternativo](09t.webp){width=170px height=170px}
 
 ***
 
