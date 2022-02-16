@@ -31,7 +31,7 @@
     </div>
     {{end}}
     <h3>Revistas anteriores</h3>
-    {{ range first 4 (after 1 .Pages.ByPublishDate.Reverse )}}
+    {{ range first 8 (after 1 .Pages.ByPublishDate.Reverse )}}
     <div class="container">
       <div class="row">
         <div class="col-6"><img alt="{{.Title}}" class="img-fluid mb-3 mb-lg-0" src="{{.Title}}/{{ .Params.cover}}" />
