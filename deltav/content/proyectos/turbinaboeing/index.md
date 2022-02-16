@@ -62,9 +62,18 @@ Se realizará la investigación realizando simulaciones con software especializa
 
 
 
+
+
+
 ![texto alternativo](02t.webp)
 
-***
+
+
+
+******
+
+
+
 
 
 ### Relación eficiencia turbina y gases de combustión en tobera
@@ -102,7 +111,10 @@ Se usará un analizador de gases de combustión por celda electroquímica para i
 
 - Mario Silva
 
+
 ***
+
+
 
 
 
@@ -115,8 +127,6 @@ Se usará un analizador de gases de combustión por celda electroquímica para i
 - Samuel López     
 
 - Juan José.        
-
-
 
 
 
