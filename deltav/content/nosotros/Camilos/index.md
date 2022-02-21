@@ -1,6 +1,6 @@
 ---
 Title: "camilos"
-nombre: "Juan Camilo Rojas Vásquez"
+nombre: "Camilo Sierra"
 foto: "cs.webp"
 descripcion: "- Miembro de investigación en motores de propelente sólido."
               
