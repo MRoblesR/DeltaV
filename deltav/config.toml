@@ -39,13 +39,19 @@ unsafe= true
         weight = 5
 
     [[menu.main]]
+        name = "Eventos"
+        identifier = "eventos"
+        url = "/eventos/index.html"
+        weight = 6
+
+    [[menu.main]]
         name = "Nosotros"
         identifier = "nosotros"
         url = "/nosotros/index.html"
-        weight = 6
+        weight = 7
 
     [[menu.main]]
         name = "Support us"
         identifier = "support us"
         url = "https://www.patreon.com/deltavudea"
-        weight = 6
+        weight = 8
