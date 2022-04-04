@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{- partial "masthead" (dict "mainTitle" "Wiki" "subtitle" "Lee sobre nuestra historia" )}}
+{{- partial "masthead" (dict "mainTitle" "Wiki" "subtitle" "Bienvenidos a la wiki del semillero Delta-V, un repositorio de conocimientos generales sobre cohetería, propulsión y papers relacionados a nuestros proyectos. La wiki es un espacio en constante construcción ¡Te invitamos a explorar!" )}}
 
 <!-- Projects-->
 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
@@ -7,7 +7,9 @@
     <section>
         <div class="container px-4 px-lg-5">
             <div class="row gx-0 mb-8 mb-lg-5 align-items-center">
-                <h1>Lista de entradas</h1>
+                <h1>Pappers</h1>
+				<h3>  Encuentra una base de datos con todos los links a nuestros papers y artículos de investigación que te llevarán al sitio dónde fueron publicados.</h3> 
+
                 <ul>
                     {{ range .Pages.ByPublishDate.Reverse }}
                     <li>
