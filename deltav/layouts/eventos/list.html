@@ -1,1 +1,22 @@
- {{ define "main" }} {{- partial "masthead" (dict "mainTitle" "Eventos" "subtitle" "Enterate de todo lo que va a ocurrir" )}} Aqui pones todo el calendario {{ end }}
+ {{ define "main" }} 
+ 
+ {{- partial "masthead" (dict "mainTitle" "Eventos" "subtitle" "Descripción: ¡Anímate a conocernos! No es teoría musical 🎼🙊, es solo ciencia de cohetes 🚀😉. Charla con Elias Montoya 👨🏻‍🏫, profesor de Ingeniería Aeroespacial en la Universidad de Antioquia y M. Sc. en Ingeniería Aeroespacial de la Universidad del Sur de California." )}} Aqui pones todo el calendario 
+ 
+    <h1>Proximos eventos</h1>
+	
+	</h4> ¿Te perdiste alguno? </h4>
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <h2> Flyer </h2>
+            {{$manager := .Params.manager}} {{ range where .Site.Pages "Section" "eventos" }}{{if eq $manager .Title}}
+            <div class="col-md-6 col-sm-12">
+                <img class="profile-image" alt="Foto de {{.Params.nombre}}" src="/eventos/{{.Title}}/{{ .Params.foto }}">
+            </div>
+            {{end}}{{end}}
+        </div>
+
+
+    </div>
+ 
+ 
+ {{ end }}
