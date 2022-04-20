@@ -8,9 +8,9 @@
         <div class="col-md-6 col-sm-12">
             <h5> Te perdiste alguno? </h5> 
 			
-			<img src= "placeholder/Charla.gif" alt= "Charla delta" width = "500px" height = "100px" /> 
+			<img src= "/placeholder/Charla.gif" alt= "Charla delta" width = "500px" height = "100px" /> 
 			
-			<input type="button" value="Ver completo" href = "https://youtu.be/K0UfWpC5vkY">
+			<input type="button" value="Ver completo" href = "https://youtu.be/K0UfWpC5vkY" />
 			
             {{$manager := .Params.manager}} {{ range where .Site.Pages "Section" "eventos" }}{{if eq $manager .Title}}
             <div class="col-md-6 col-sm-12">
