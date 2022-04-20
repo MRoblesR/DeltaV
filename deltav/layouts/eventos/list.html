@@ -7,14 +7,27 @@
     <div class="row">
         <div class="col-md-6 col-sm-12">
             <h2> Te perdiste alguno? </h2>
+			
+			<img src= "Charla.gif" alt= "Charla delta" width = "500px" height = "100px" /> 
+			
+			<input type="button" value="Ver completo" href = "https://youtu.be/K0UfWpC5vkY">
+			
             {{$manager := .Params.manager}} {{ range where .Site.Pages "Section" "eventos" }}{{if eq $manager .Title}}
             <div class="col-md-6 col-sm-12">
                 <img class="profile-image" alt="Foto de {{.Params.nombre}}" src="/eventos/{{.Title}}/{{ .Params.foto }}">
             </div>
             {{end}}{{end}}
         </div>
-
-
+		
+		<div class="col-md-6 col-sm-12">
+		
+				{{ $img := resources.Get "placeholder/Charla.gif"}} {{ $img = $img.Filter (images.Text "Hugo rocks!" (dict "color" "#ffffff" "size" 60 "linespacing" 2 "x" 10 "y" 20))}}
+		
+				{{end}}{{end}}
+		
+		</div>
+	
+	
     </div>
  
  
