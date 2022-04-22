@@ -1,32 +1,26 @@
  {{ define "main" }} 
  
- {{- partial "masthead" (dict "mainTitle" "Eventos" "subtitle" "¡Anímate a conocernos! No es teoría musical 🎼🙊, es solo ciencia de cohetes 🚀😉. Charla con Elias Montoya 👨🏻‍🏫, profesor de Ingeniería Aeroespacial en la Universidad de Antioquia y M. Sc. en Ingeniería Aeroespacial de la Universidad del Sur de California." )}} 
+ {{- partial "masthead" (dict "mainTitle" "Eventos" "subtitle" "Acá todos los eventos del semillero Delta-V" )}} 
  
     <h1>Proximos eventos</h1>
 	
-    <div class="row">
-        <div class="col-md-6 col-sm-12">
-            <h5> Te perdiste alguno? </h5> 
-			
-			{{ .Content  }} 
-			
-			{{ $image := resources.Get "placeholder/Charla.gif" }}
-			<img src="{{ $image.RelPermali }}" />
-			
-			{{- range.Data.Pages -}} 
-			
-			<article class="post-snippet">
-			</article>
-			
-			{{ end }} 
-			
-           
-        </div>
-		
-		
+   <div class="container">
+  <div class="row">
+    <div class="col">
+	<h5> Te perdiste alguno? </h5>
 	
-	
+      <a href="https://imgur.com/sSA49qm"><img src="https://i.imgur.com/sSA49qm.gif" title="source: imgur.com" /></a>
     </div>
+    <div class="col">
+		<h5> Del concepto a la realidad </h5> 
+	  
+		¡Anímate a conocernos! No es teoría musical 🎼🙊, es solo ciencia de cohetes 🚀😉. Charla con Elias Montoya 👨🏻‍🏫, profesor de Ingeniería Aeroespacial en la Universidad de Antioquia y M. Sc. en Ingeniería Aeroespacial de la Universidad del Sur de California.
+	  
+		<a href="https://youtu.be/K0UfWpC5vkY" class="button">Ver Completo</a>
+	  
+    </div>
+  </div>
+</div>
  
  
  {{ end }}
